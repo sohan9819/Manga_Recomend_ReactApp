@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: oldlace;
+}
+
+body {
+  background: oldlace;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  height: max-content;
+  width: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+#genre {
+  padding: 0.5em;
+  background: lightcoral;
+  border-radius: 0.4em;
+  display: inline;
+  transition: all 0.3s ease-in;
+}
+
+#genre:focus,
+#genre:hover {
+  background: lightsalmon;
+}
+
+#manga {
+  padding: 0.5em;
+  background: lightpink;
+  border-radius: 0.4em;
+  transition: all 0.3s ease-in;
+}
+
+#manga:focus,
+#manga:hover {
+  background: lightcoral;
+}
+
+#genreHeding {
+  text-align: center;
+  width: max-content;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  background: lightsalmon;
+  border-radius: 0.4em;
+}
